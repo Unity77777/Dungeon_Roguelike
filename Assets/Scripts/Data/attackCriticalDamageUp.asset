@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94846b3a8c981a64f800155fcc6ec7b1, type: 3}
+  m_Name: attackCriticalDamageUp
+  m_EditorClassIdentifier: 
+  id: attackCriticalDamageUp
+  itemName: ring
+  icon: {fileID: -1395112006, guid: b380a97ac54297245808e26c2f5f23ef, type: 3}
+  type: 8
+  rarity: 0
+  value: 0
+  price: 0
+  description: "\uD06C\uB9AC\uD2F0\uCEEC \uB370\uBBF8\uC9C0\uC640 \uACF5\uACA9\uB825\uC744
+    \uC62C\uB824\uC8FC \uBC18\uC9C0\uC774\uB2E4."

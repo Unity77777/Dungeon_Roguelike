@@ -1,0 +1,138 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\2191\\Desktop\\\uC7A5\uAD70\\\uC720\uB2C8\uD2F0 \uD30C\uC77C\\testProject23 (2)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2B738066-24E2-0B7E-7BF9-C6BD33997B80}|Assembly-CSharp.csproj|c:\\users\\2191\\desktop\\\uC7A5\uAD70\\\uC720\uB2C8\uD2F0 \uD30C\uC77C\\testproject23 (2)\\assets\\scripts\\uiscripts\\slotui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B738066-24E2-0B7E-7BF9-C6BD33997B80}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uiscripts\\slotui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B738066-24E2-0B7E-7BF9-C6BD33997B80}|Assembly-CSharp.csproj|c:\\users\\2191\\desktop\\\uC7A5\uAD70\\\uC720\uB2C8\uD2F0 \uD30C\uC77C\\testproject23 (2)\\assets\\scripts\\playerscripts\\playerinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B738066-24E2-0B7E-7BF9-C6BD33997B80}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerscripts\\playerinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B738066-24E2-0B7E-7BF9-C6BD33997B80}|Assembly-CSharp.csproj|C:\\Users\\2191\\Desktop\\\uC7A5\uAD70\\\uC720\uB2C8\uD2F0 \uD30C\uC77C\\testProject23 (2)\\assets\\scripts\\monsterscripts\\monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B738066-24E2-0B7E-7BF9-C6BD33997B80}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\monsterscripts\\monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B738066-24E2-0B7E-7BF9-C6BD33997B80}|Assembly-CSharp.csproj|C:\\Users\\2191\\Desktop\\\uC7A5\uAD70\\\uC720\uB2C8\uD2F0 \uD30C\uC77C\\testProject23 (2)\\assets\\scripts\\itemscripts\\floatingitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B738066-24E2-0B7E-7BF9-C6BD33997B80}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\itemscripts\\floatingitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B738066-24E2-0B7E-7BF9-C6BD33997B80}|Assembly-CSharp.csproj|c:\\users\\2191\\desktop\\\uC7A5\uAD70\\\uC720\uB2C8\uD2F0 \uD30C\uC77C\\testproject23 (2)\\assets\\scripts\\uiscripts\\itempickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B738066-24E2-0B7E-7BF9-C6BD33997B80}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uiscripts\\itempickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B738066-24E2-0B7E-7BF9-C6BD33997B80}|Assembly-CSharp.csproj|C:\\Users\\2191\\Desktop\\\uC7A5\uAD70\\\uC720\uB2C8\uD2F0 \uD30C\uC77C\\testProject23 (2)\\assets\\scripts\\itemscripts\\itemdrop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B738066-24E2-0B7E-7BF9-C6BD33997B80}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\itemscripts\\itemdrop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B738066-24E2-0B7E-7BF9-C6BD33997B80}|Assembly-CSharp.csproj|C:\\Users\\2191\\Desktop\\\uC7A5\uAD70\\\uC720\uB2C8\uD2F0 \uD30C\uC77C\\testProject23 (2)\\assets\\scripts\\manager\\dropmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B738066-24E2-0B7E-7BF9-C6BD33997B80}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\manager\\dropmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerInventory.cs",
+              "DocumentMoniker": "C:\\Users\\2191\\Desktop\\\uC7A5\uAD70\\\uC720\uB2C8\uD2F0 \uD30C\uC77C\\testProject23 (2)\\Assets\\Scripts\\PlayerScripts\\PlayerInventory.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerScripts\\PlayerInventory.cs",
+              "ToolTip": "C:\\Users\\2191\\Desktop\\\uC7A5\uAD70\\\uC720\uB2C8\uD2F0 \uD30C\uC77C\\testProject23 (2)\\Assets\\Scripts\\PlayerScripts\\PlayerInventory.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerScripts\\PlayerInventory.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAuwH8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T07:33:37.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SlotUI.cs",
+              "DocumentMoniker": "C:\\Users\\2191\\Desktop\\\uC7A5\uAD70\\\uC720\uB2C8\uD2F0 \uD30C\uC77C\\testProject23 (2)\\Assets\\Scripts\\UiScripts\\SlotUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UiScripts\\SlotUI.cs",
+              "ToolTip": "C:\\Users\\2191\\Desktop\\\uC7A5\uAD70\\\uC720\uB2C8\uD2F0 \uD30C\uC77C\\testProject23 (2)\\Assets\\Scripts\\UiScripts\\SlotUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UiScripts\\SlotUI.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAqwEoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T06:39:20.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ItemPickup.cs",
+              "DocumentMoniker": "C:\\Users\\2191\\Desktop\\\uC7A5\uAD70\\\uC720\uB2C8\uD2F0 \uD30C\uC77C\\testProject23 (2)\\Assets\\Scripts\\UiScripts\\ItemPickup.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UiScripts\\ItemPickup.cs",
+              "ToolTip": "C:\\Users\\2191\\Desktop\\\uC7A5\uAD70\\\uC720\uB2C8\uD2F0 \uD30C\uC77C\\testProject23 (2)\\Assets\\Scripts\\UiScripts\\ItemPickup.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UiScripts\\ItemPickup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T05:38:32.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FloatingItem.cs",
+              "DocumentMoniker": "C:\\Users\\2191\\Desktop\\\uC7A5\uAD70\\\uC720\uB2C8\uD2F0 \uD30C\uC77C\\testProject23 (2)\\Assets\\Scripts\\ItemScripts\\FloatingItem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ItemScripts\\FloatingItem.cs",
+              "ToolTip": "C:\\Users\\2191\\Desktop\\\uC7A5\uAD70\\\uC720\uB2C8\uD2F0 \uD30C\uC77C\\testProject23 (2)\\Assets\\Scripts\\ItemScripts\\FloatingItem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ItemScripts\\FloatingItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T05:32:25.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Monster.cs",
+              "DocumentMoniker": "C:\\Users\\2191\\Desktop\\\uC7A5\uAD70\\\uC720\uB2C8\uD2F0 \uD30C\uC77C\\testProject23 (2)\\Assets\\Scripts\\MonsterScripts\\Monster.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MonsterScripts\\Monster.cs",
+              "ToolTip": "C:\\Users\\2191\\Desktop\\\uC7A5\uAD70\\\uC720\uB2C8\uD2F0 \uD30C\uC77C\\testProject23 (2)\\Assets\\Scripts\\MonsterScripts\\Monster.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MonsterScripts\\Monster.cs",
+              "ViewState": "AgIAAPQAAAAAAAAAAAD4v9AAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T08:10:07.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DropManager.cs",
+              "DocumentMoniker": "C:\\Users\\2191\\Desktop\\\uC7A5\uAD70\\\uC720\uB2C8\uD2F0 \uD30C\uC77C\\testProject23 (2)\\Assets\\Scripts\\Manager\\DropManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Manager\\DropManager.cs",
+              "ToolTip": "C:\\Users\\2191\\Desktop\\\uC7A5\uAD70\\\uC720\uB2C8\uD2F0 \uD30C\uC77C\\testProject23 (2)\\Assets\\Scripts\\Manager\\DropManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Manager\\DropManager.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAuwE8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T08:10:03.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ItemDrop.cs",
+              "DocumentMoniker": "C:\\Users\\2191\\Desktop\\\uC7A5\uAD70\\\uC720\uB2C8\uD2F0 \uD30C\uC77C\\testProject23 (2)\\Assets\\Scripts\\ItemScripts\\ItemDrop.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ItemScripts\\ItemDrop.cs",
+              "ToolTip": "C:\\Users\\2191\\Desktop\\\uC7A5\uAD70\\\uC720\uB2C8\uD2F0 \uD30C\uC77C\\testProject23 (2)\\Assets\\Scripts\\ItemScripts\\ItemDrop.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ItemScripts\\ItemDrop.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T08:09:44.965Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

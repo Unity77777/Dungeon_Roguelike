@@ -1,0 +1,2890 @@
+fileFormatVersion: 2
+guid: 6430803c6af779f409aab42d11b67491
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 469
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a080de07db082874caca21bb52242a35
+      internalID: 363049526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_1
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 469
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c38df7c0c0a59049a5981dd82ca6e9e
+      internalID: 69521704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_2
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 469
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81ada5abc054c3a4d8c883ca9816e5c7
+      internalID: -929317860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_3
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 469
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c379c4b86a517c9428f726364851f3cf
+      internalID: -2035437276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_4
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 469
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6fe7a150b6cdaf4f8c8bac30bf8a0fb
+      internalID: 840363986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_5
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 469
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30a748d72b59eef45bd657721b0f2c1b
+      internalID: -1035286171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_6
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 469
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9556d0509cbf43947b094804a022e4ff
+      internalID: 499858021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_7
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 469
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5d05c37e8de5a94f891963cf19aa628
+      internalID: -1157330332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_8
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 469
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f27c07fd962dad47b85670f0b32ca34
+      internalID: 737596709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_9
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 469
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b56e18da77255364bb08aa3e985eaf9e
+      internalID: 1417155422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_10
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 469
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e8f57436b6cc3d4e8db095300872367
+      internalID: 358745979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_11
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 469
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 276e7f8e75422cd449ee6fb694dbfaf5
+      internalID: 1489863616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_12
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 470
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f4472a5ed488384b9876f58b9f65773
+      internalID: 1013417010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_13
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 470
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33240976edf4bf44198d26ff3c1d67aa
+      internalID: 1919680791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_14
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 469
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6773038f3581bf9408dae455928c45f3
+      internalID: -341619812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_15
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 406
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72429634cb398b74e96c9589c04b073e
+      internalID: -373869363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_16
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 406
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95cb4caea44536e438451fb6ddf1466d
+      internalID: -1762746403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_17
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 406
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73e47acdd3ca9434aaf35d7004e767ba
+      internalID: -988314108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_18
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 406
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9b1a8609dc446e418a30642473e1a0a
+      internalID: 1007826423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_19
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 406
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f97551667a332a541b38ceb7e090e15d
+      internalID: 1355074719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_20
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 406
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6de1d76fff1fb7443b79c62ac384f821
+      internalID: -948887238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_21
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 406
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77ce7fbc2d9453846b1ca374af769f6c
+      internalID: -469587859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_22
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 406
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 492b52f70114ea740a878e2868f13e93
+      internalID: 701268306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_23
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 406
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ac2bb83906091e489de17bc90bbf4c7
+      internalID: 856933539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_24
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 406
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8b1733af58eb25409db2f1f5cfafc2e
+      internalID: -1306720375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_25
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 406
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dae7b9c81e271346881f3b029b5df30
+      internalID: 894358076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_26
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 407
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e63d4dc6714ccc3438f8304744f2e529
+      internalID: 1270769010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_27
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 407
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2020ceeec84dc224899d1ad1ec435d43
+      internalID: 319441280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_28
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 406
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c056994a49849b4caa78be44247f8b9
+      internalID: -868868132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_29
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 406
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a909677a4a52b54cb398113df12019d
+      internalID: -315501716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_30
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 340
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bb7969d7bb393d41addab427768e97f
+      internalID: 1243866373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_31
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 340
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8758adf724023ae46a3752268181baf5
+      internalID: -558150212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_32
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 340
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2c05008789b05f44b4339baed104f6c
+      internalID: 1812693451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_33
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 340
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bfc734d4507db74cadccd033627409b
+      internalID: 1541840659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_34
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 340
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95a228674afc1f94496cb4ffd520a0dc
+      internalID: -1434590152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_35
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 340
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b07cb871f4d9d424a9d79cf897a35ce5
+      internalID: -1128763029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_36
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 340
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d4a36e9e0e27734f874466175cdc5be
+      internalID: -274779953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_37
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 340
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ce5718247ee1d440ab7a373988e92f2
+      internalID: 442085859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_38
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 340
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c093c86140823b42bb399508c4bb911
+      internalID: 1155127923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_39
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 340
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57702313a2bc5b94c97bab8fd13c909d
+      internalID: -832804550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_40
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 340
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3d25b3e0df220b4b8b5aeea078de6e0
+      internalID: -240144200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_41
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 340
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 663914b4d9069bc45a03174239aa84f4
+      internalID: -1114595047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_42
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 340
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5efcb0a06e7d8614db694db8e77e1b80
+      internalID: 1061769872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_43
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 340
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49bf603749325aa4699a3a9e6f172088
+      internalID: -1524789384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_44
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 340
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ca8133ab92d33f4f8255a38fa516fe3
+      internalID: 1214393087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_45
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 276
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6beceb07decfb9b47ab6ac80955df16d
+      internalID: 894153225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_46
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 276
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d57b5d7cc69ae824287e6c621614973f
+      internalID: -404692010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_47
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 276
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 436d54c4055db934b84177623a45e715
+      internalID: 33222400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_48
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 276
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5becc842b255b1a438c34cef885b143e
+      internalID: -2147463403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_49
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 276
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 143d5ab2f5cbe57478acbc1cfa6f7ae8
+      internalID: -1833145306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_50
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 276
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 442f60a8d24b99f4196e386f5e6beb33
+      internalID: 1271839329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_51
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 276
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaa789028714a0446a3b4dfbd4038119
+      internalID: 503733757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_52
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 276
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 265f3ba3ccb57ba4aa93348e78a192da
+      internalID: -1423659901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_53
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 276
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64986cbd24a5d8b4492d6b44a179a3c3
+      internalID: -1885332430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_54
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 276
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2869eb87f3c6332468af5f19a5d08908
+      internalID: 821169889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_55
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 276
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ef33969512365e4abee65579dc9cef1
+      internalID: -1377683163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_56
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 276
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a75f038e1d5a314fadc1dfbf898b454
+      internalID: 178744249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_57
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 276
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a11af8d2316749f409fe867397f7e4b0
+      internalID: 293075776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_58
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 276
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af121b58cc9447441a00a22cbabd6dfd
+      internalID: 1932207920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_59
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 276
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91bfa389b8a6a1247a8cac6c01a56ff1
+      internalID: -194867571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_60
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 215
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcf2b30655f79f248aeaff175afe5b85
+      internalID: -724720489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_61
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 215
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 655f5044c45c7174a8cd0bef12bb9752
+      internalID: 830443969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_62
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 215
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d66f35b056cf3784da595954efc3bae6
+      internalID: -361216029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_63
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 215
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cb25829b3afb8a45a11c243eb8a87d1
+      internalID: -1507988422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_64
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 214
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 486ff65fdd4f6c445bc72dd0eba95f45
+      internalID: 691315294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_65
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 215
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b0cc717a1b89c642a2854554127c32d
+      internalID: -980895461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_66
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 215
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1934c88c2af837e4ba5f38fd9072701b
+      internalID: -1954354575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_67
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 215
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4df7832401d001642b31547b9102179b
+      internalID: -152672281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_68
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 215
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d98bca361e44e341a924e979c287896
+      internalID: 180545514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_69
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 215
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3769887dd67708940bd360678dff2d9d
+      internalID: 418268290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_70
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 215
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e838fdab4ee724f4d9599dff22cee571
+      internalID: 451283049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_71
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 215
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90841e31c01fa304e8c06533a7b9f137
+      internalID: -286973867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_72
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 215
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37fe50e9dbd11d247867d68897bf18fa
+      internalID: -1349563432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_73
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 215
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 992c6a086a5bf8249b8b395eec07f2c4
+      internalID: 1617682536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_74
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 215
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88995a4cf28cf9443abbbbd10a94a611
+      internalID: -489051272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_75
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 151
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d74b7a2b99bf304b9660bf459954372
+      internalID: -1418279747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_76
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 151
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 692eeecb40855fc41b64378b02fd72ba
+      internalID: -466560857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_77
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 151
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa2af913493abf244a93222babe064b5
+      internalID: 941392616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_78
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 151
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d3312a4383caf42825334e814ce830
+      internalID: -716824855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_79
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 151
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e96ad43e79778247b0ebdad60fa70bc
+      internalID: 1440482263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_80
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 151
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f87b92f9b84f3c5448faac40f77f7a61
+      internalID: 581541699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_81
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 151
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 628914a3d13145e4aac1786c8bb251bb
+      internalID: 442518881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_82
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 151
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09615c3f70b70894bb1aa12adaa8555d
+      internalID: 1458628541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_83
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 151
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffba5f5793c19844098d60876f0d42f3
+      internalID: -614168612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_84
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 151
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc30cc7aeb45e9845885a9b17ca5333a
+      internalID: -2029940044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_85
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 151
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d18ba6148df00f4ab1a05bc3a7a8f7d
+      internalID: -1820429592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_86
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 151
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e3409561d0cd074f8c97bb94db1f2de
+      internalID: -226493282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_87
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 151
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 676b7c7c033658144a7ce4b37a6b5951
+      internalID: -1928644595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_88
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 151
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3994c3f66467f344abeb138e17f22c44
+      internalID: -1432715798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_89
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 151
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a25f8dc082a142488f41d2e94927b14
+      internalID: -568385643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_90
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 85
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5346d53669f76a2409b5cd25a13dca3d
+      internalID: -1374207243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_91
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 85
+        width: 12
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65b822bd586de7d479bda4d02b658841
+      internalID: 1876286682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_92
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 85
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cfb9121afb8b9142a99d81c0c24c151
+      internalID: 1327502019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_93
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 85
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf94da310b519874cbbe85effe46018e
+      internalID: 1586702815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_94
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 85
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33f703f7707284e4b9bdd0f513d8a858
+      internalID: 104522622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_95
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 85
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aef6a91545b07a44a65a1390d274743
+      internalID: 1981151161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_96
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 85
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec55b2310d9233b448be6ed32240fe85
+      internalID: 1869158336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_97
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 85
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf64d3c480e6954cb62384e736bf50e
+      internalID: 1797035155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_98
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 85
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df9ebd115301a9344ac52b5dfbb273c1
+      internalID: 1102020935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_99
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 85
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78d7c4c850a99664791d60f213515d9d
+      internalID: 545659052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_100
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 85
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e6eabd6fdbb1f5409735566e627d9f5
+      internalID: 333893545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_101
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 85
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47a3db52f2bd4b044879a591ca2150ea
+      internalID: 873704931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_102
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 85
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a0df74f53c244e429e0d049ee33f016
+      internalID: -1653583545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_103
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 85
+        width: 11
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7908ca35dd8ed541b3f5b6bb07746e8
+      internalID: 747851631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_104
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 85
+        width: 11
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bce6eb7225efaf46a12b70261dc6815
+      internalID: 1390664842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_105
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 20
+        width: 11
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0740afa600d1994786f2893f44cfb0c
+      internalID: 613898117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_106
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 20
+        width: 11
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 472737330a151634fa9d77903b1002fc
+      internalID: -948462036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_107
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 20
+        width: 11
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9af5e7cf1f4ca494a9ac6c4e588251d4
+      internalID: 1053281587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_108
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 20
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84836ed9d916bd64abe51cbddbe0a770
+      internalID: 890590002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_109
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 20
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aec12593421310043a4d90d0305f4538
+      internalID: 672435018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_110
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 20
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a687de93b5861a4fa83176680d181bb
+      internalID: 1155416019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_111
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 20
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcbf514b33d23274b943e651b4d4c9e6
+      internalID: 790831520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_112
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 20
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b964a8f2183a4e48968cfbec38b73e7
+      internalID: -2129416786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_113
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 20
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0f64b2d2de11f04891055be37bbd713
+      internalID: 1452149915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_114
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 20
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1588f6b018615db4d81b8c7a27107508
+      internalID: 421163679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_115
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 20
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31eab3994b334ac4284f4327022786c2
+      internalID: 1461700353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_116
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 20
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20cc69574f89514439d6c5b2b324c146
+      internalID: -1071351430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_117
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 20
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e9d03b0fb629f5439cbb25c2ab60762
+      internalID: 49579988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_118
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 20
+        width: 12
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5f735826eeb84642b3d5cf67133502d
+      internalID: 1615130746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CastSpell_Shadowless_119
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 20
+        width: 12
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b278dfef15ce7546a5f983299126d56
+      internalID: -968570602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 42ccc106d51ccb945b5f443059ef56d1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CastSpell_Shadowless_0: 363049526
+      CastSpell_Shadowless_1: 69521704
+      CastSpell_Shadowless_10: 358745979
+      CastSpell_Shadowless_100: 333893545
+      CastSpell_Shadowless_101: 873704931
+      CastSpell_Shadowless_102: -1653583545
+      CastSpell_Shadowless_103: 747851631
+      CastSpell_Shadowless_104: 1390664842
+      CastSpell_Shadowless_105: 613898117
+      CastSpell_Shadowless_106: -948462036
+      CastSpell_Shadowless_107: 1053281587
+      CastSpell_Shadowless_108: 890590002
+      CastSpell_Shadowless_109: 672435018
+      CastSpell_Shadowless_11: 1489863616
+      CastSpell_Shadowless_110: 1155416019
+      CastSpell_Shadowless_111: 790831520
+      CastSpell_Shadowless_112: -2129416786
+      CastSpell_Shadowless_113: 1452149915
+      CastSpell_Shadowless_114: 421163679
+      CastSpell_Shadowless_115: 1461700353
+      CastSpell_Shadowless_116: -1071351430
+      CastSpell_Shadowless_117: 49579988
+      CastSpell_Shadowless_118: 1615130746
+      CastSpell_Shadowless_119: -968570602
+      CastSpell_Shadowless_12: 1013417010
+      CastSpell_Shadowless_13: 1919680791
+      CastSpell_Shadowless_14: -341619812
+      CastSpell_Shadowless_15: -373869363
+      CastSpell_Shadowless_16: -1762746403
+      CastSpell_Shadowless_17: -988314108
+      CastSpell_Shadowless_18: 1007826423
+      CastSpell_Shadowless_19: 1355074719
+      CastSpell_Shadowless_2: -929317860
+      CastSpell_Shadowless_20: -948887238
+      CastSpell_Shadowless_21: -469587859
+      CastSpell_Shadowless_22: 701268306
+      CastSpell_Shadowless_23: 856933539
+      CastSpell_Shadowless_24: -1306720375
+      CastSpell_Shadowless_25: 894358076
+      CastSpell_Shadowless_26: 1270769010
+      CastSpell_Shadowless_27: 319441280
+      CastSpell_Shadowless_28: -868868132
+      CastSpell_Shadowless_29: -315501716
+      CastSpell_Shadowless_3: -2035437276
+      CastSpell_Shadowless_30: 1243866373
+      CastSpell_Shadowless_31: -558150212
+      CastSpell_Shadowless_32: 1812693451
+      CastSpell_Shadowless_33: 1541840659
+      CastSpell_Shadowless_34: -1434590152
+      CastSpell_Shadowless_35: -1128763029
+      CastSpell_Shadowless_36: -274779953
+      CastSpell_Shadowless_37: 442085859
+      CastSpell_Shadowless_38: 1155127923
+      CastSpell_Shadowless_39: -832804550
+      CastSpell_Shadowless_4: 840363986
+      CastSpell_Shadowless_40: -240144200
+      CastSpell_Shadowless_41: -1114595047
+      CastSpell_Shadowless_42: 1061769872
+      CastSpell_Shadowless_43: -1524789384
+      CastSpell_Shadowless_44: 1214393087
+      CastSpell_Shadowless_45: 894153225
+      CastSpell_Shadowless_46: -404692010
+      CastSpell_Shadowless_47: 33222400
+      CastSpell_Shadowless_48: -2147463403
+      CastSpell_Shadowless_49: -1833145306
+      CastSpell_Shadowless_5: -1035286171
+      CastSpell_Shadowless_50: 1271839329
+      CastSpell_Shadowless_51: 503733757
+      CastSpell_Shadowless_52: -1423659901
+      CastSpell_Shadowless_53: -1885332430
+      CastSpell_Shadowless_54: 821169889
+      CastSpell_Shadowless_55: -1377683163
+      CastSpell_Shadowless_56: 178744249
+      CastSpell_Shadowless_57: 293075776
+      CastSpell_Shadowless_58: 1932207920
+      CastSpell_Shadowless_59: -194867571
+      CastSpell_Shadowless_6: 499858021
+      CastSpell_Shadowless_60: -724720489
+      CastSpell_Shadowless_61: 830443969
+      CastSpell_Shadowless_62: -361216029
+      CastSpell_Shadowless_63: -1507988422
+      CastSpell_Shadowless_64: 691315294
+      CastSpell_Shadowless_65: -980895461
+      CastSpell_Shadowless_66: -1954354575
+      CastSpell_Shadowless_67: -152672281
+      CastSpell_Shadowless_68: 180545514
+      CastSpell_Shadowless_69: 418268290
+      CastSpell_Shadowless_7: -1157330332
+      CastSpell_Shadowless_70: 451283049
+      CastSpell_Shadowless_71: -286973867
+      CastSpell_Shadowless_72: -1349563432
+      CastSpell_Shadowless_73: 1617682536
+      CastSpell_Shadowless_74: -489051272
+      CastSpell_Shadowless_75: -1418279747
+      CastSpell_Shadowless_76: -466560857
+      CastSpell_Shadowless_77: 941392616
+      CastSpell_Shadowless_78: -716824855
+      CastSpell_Shadowless_79: 1440482263
+      CastSpell_Shadowless_8: 737596709
+      CastSpell_Shadowless_80: 581541699
+      CastSpell_Shadowless_81: 442518881
+      CastSpell_Shadowless_82: 1458628541
+      CastSpell_Shadowless_83: -614168612
+      CastSpell_Shadowless_84: -2029940044
+      CastSpell_Shadowless_85: -1820429592
+      CastSpell_Shadowless_86: -226493282
+      CastSpell_Shadowless_87: -1928644595
+      CastSpell_Shadowless_88: -1432715798
+      CastSpell_Shadowless_89: -568385643
+      CastSpell_Shadowless_9: 1417155422
+      CastSpell_Shadowless_90: -1374207243
+      CastSpell_Shadowless_91: 1876286682
+      CastSpell_Shadowless_92: 1327502019
+      CastSpell_Shadowless_93: 1586702815
+      CastSpell_Shadowless_94: 104522622
+      CastSpell_Shadowless_95: 1981151161
+      CastSpell_Shadowless_96: 1869158336
+      CastSpell_Shadowless_97: 1797035155
+      CastSpell_Shadowless_98: 1102020935
+      CastSpell_Shadowless_99: 545659052
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

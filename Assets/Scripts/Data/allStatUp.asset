@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94846b3a8c981a64f800155fcc6ec7b1, type: 3}
+  m_Name: allStatUp
+  m_EditorClassIdentifier: 
+  id: allStatUp
+  itemName: bracelet
+  icon: {fileID: -785428022, guid: b380a97ac54297245808e26c2f5f23ef, type: 3}
+  type: 10
+  rarity: 0
+  value: 0
+  price: 0
+  description: "\uBAA8\uB4E0 \uC2A4\uD0EF\uC744 \uC62C\uB824\uC8FC\uB294 \uD314\uCC0C\uC774\uB2E4."
