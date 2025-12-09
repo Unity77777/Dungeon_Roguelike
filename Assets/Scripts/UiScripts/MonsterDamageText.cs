@@ -7,6 +7,8 @@ public class MonsterDamageText : MonoBehaviour
     public float floatSpeed = 1f;
     public float lifetime = 1f;
 
+    private float timer = 0f;
+
     public void Setup(string text, Color color)
     {
         if (textMesh == null)
@@ -14,12 +16,17 @@ public class MonsterDamageText : MonoBehaviour
 
         textMesh.text = text;
         textMesh.color = color;
-
-        Destroy(gameObject, lifetime);
+        timer = 0f;
     }
 
     private void Update()
     {
         transform.position += Vector3.up * floatSpeed * Time.deltaTime;
+
+        timer += Time.deltaTime;
+        if(timer >= lifetime)
+        {
+            DamageTextPool.Instance.ReturnToPool(gameObject);
+        }
     }
 }

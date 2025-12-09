@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using System.Collections;
 
 // ================= 몬스터 스크립트 =================
 [RequireComponent(typeof(CharacterController))]
@@ -334,10 +333,10 @@ public class Monster : MonoBehaviour
         // 생성 위치 (몬스터 머리 위)
         Vector3 worldPos = transform.position + Vector3.up * 1.5f;
 
-        GameObject dmgObj = Instantiate(damageTextPrefab, worldCanvas);
+        GameObject dmgObj = DamageTextPool.Instance.Get();
+        dmgObj.transform.SetParent(worldCanvas, false);
 
-        // 월드 캔버스이므로 실제 월드 좌표로 배치
-        dmgObj.transform.position = worldPos;
+        dmgObj.transform.position = worldPos; // 월드 캔버스 이므로 실제 좌표로 배치
 
         // 텍스트 설정
         MonsterDamageText dmgText = dmgObj.GetComponent<MonsterDamageText>();
