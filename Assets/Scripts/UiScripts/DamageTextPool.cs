@@ -5,13 +5,10 @@ public class DamageTextPool : MonoBehaviour
 {
     public static DamageTextPool Instance;
     public GameObject damageTextPrefab;
-    private Queue<GameObject> pool = new Queue<GameObject>();
     public int initialPoolSize = 30;
-    // 풀에서 가져옴
-    // 월드 좌표배치
-    // setup 으로 텍스트와 색상 설정
-    // update에서 위로 떠오름
-    // lifetime 후 풀로 반환
+
+    private Queue<GameObject> pool = new Queue<GameObject>();
+    private Transform worldCanvas;
 
     void Awake()
     {
@@ -23,8 +20,12 @@ public class DamageTextPool : MonoBehaviour
         }
 
             Instance = this;
+    }
 
-        for(int i = 0; i < initialPoolSize; i++)
+    public void Initialize(Transform canvas)
+    {
+        worldCanvas = canvas;
+        for (int i = 0; i < initialPoolSize; i++)
         {
             CreateNewObject();
         }
@@ -32,7 +33,7 @@ public class DamageTextPool : MonoBehaviour
 
     private GameObject CreateNewObject()
     {
-        GameObject obj = Instantiate(damageTextPrefab, transform);
+        GameObject obj = Instantiate(damageTextPrefab, worldCanvas);
         obj.SetActive(false);
         pool.Enqueue(obj);
         return obj;
@@ -54,7 +55,7 @@ public class DamageTextPool : MonoBehaviour
         if(dt != null)
             dt.ResetState();
         
-        obj.transform.SetParent(transform);
+        obj.transform.SetParent(worldCanvas);
         obj.SetActive(false);
         pool.Enqueue(obj);
     }

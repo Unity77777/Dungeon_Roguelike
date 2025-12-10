@@ -64,7 +64,10 @@ public class Monster : MonoBehaviour
 
         GameObject obj = GameObject.Find("WorldCanvas");
         if (obj != null)
+        {
             worldCanvas = obj.transform;
+            DamageTextPool.Instance.Initialize(worldCanvas);
+        }
         else
             Debug.LogError("[Monster] 'WorldCanvas' 오브젝트를 찾을 수 없습니다.");
     }
@@ -328,18 +331,13 @@ public class Monster : MonoBehaviour
 
     private void ShowDamageText(int damage, bool isCritical)
     {
-        if (damageTextPrefab == null || worldCanvas == null) return;
 
-        // 생성 위치 (몬스터 머리 위)
-        Vector3 worldPos = transform.position + Vector3.up * 1.5f;
 
         GameObject dmgObj = DamageTextPool.Instance.Get();
-        dmgObj.transform.SetParent(worldCanvas, false);
-
-        dmgObj.transform.position = worldPos; // 월드 캔버스 이므로 실제 좌표로 배치
+        dmgObj.transform.position = transform.position + Vector3.up * 1.5f;
 
         // 텍스트 설정
-        MonsterDamageText dmgText = dmgObj.GetComponent<MonsterDamageText>();
+        var dmgText = dmgObj.GetComponent<MonsterDamageText>();
         if (dmgText != null)
         {
             Color color = isCritical ? Color.red : Color.white;
