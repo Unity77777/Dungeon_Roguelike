@@ -93,5 +93,34 @@ public class ItemData : ScriptableObject
         return tooltip;
     }
 
+    public void InitializeGeneratedItem(float newValue, ItemData baseItem)
+    {
+        id = baseItem.id;
+        itemName = baseItem.itemName;
+        icon = baseItem.icon;
+        type = baseItem.type;
+        description = baseItem.description;
+
+        value = newValue;
+        UpdateRarityByValue();
+
+        UpdatePrice();
+    }
+
+    public void UpdatePrice()
+    {
+        float rarityMultiplier = 1f;
+
+        switch(rarity)
+        {
+            case ItemRarity.Common: rarityMultiplier = 1f; break;
+            case ItemRarity.Uncommon: rarityMultiplier = 1.5f; break;
+            case ItemRarity.Epic: rarityMultiplier = 2f; break;
+            case ItemRarity.Legendary: rarityMultiplier = 3f; break;
+            case ItemRarity.Mythic: rarityMultiplier = 5f; break;
+        }
+
+        price = Mathf.FloorToInt(value * rarityMultiplier);
+    }
 
 }

@@ -180,68 +180,9 @@ public class Monster : MonoBehaviour
         GiveGoldReward();
 
         // 아이템 드랍 시도
-        TryDropItem();
+        DropSystem.TryDrop(possibleDrops, dropChance, transform.position, playerInventory, itemPrefab);
 
         Destroy(gameObject, 3f);
-    }
-
-    private void TryDropItem()
-    {
-        if (itemPrefab == null || playerInventory == null)
-            return;
-
-        if (possibleDrops == null || possibleDrops.Length == 0)
-        {
-            Debug.LogWarning("[TryDropItem] possibleDrops 배열이 비어 있습니다.");
-            return;
-        }
-
-        // 플레이어의 드랍률 보정 가져오기
-        PlayerStats stats = playerInventory.GetComponent<PlayerStats>();
-        float playerDropBonus = (stats != null) ? stats.dropRate : 0f;
-
-        // 최종 드랍 확률 계산 (예: 50% + 20% = 70%)
-        float finalDropChance = Mathf.Clamp01((dropChance + playerDropBonus) / 100f);
-
-        if (Random.value <= finalDropChance)
-        {
-            // 아이템 프리팹 생성
-            GameObject go = Instantiate(itemPrefab, transform.position + Vector3.up, Quaternion.identity);
-
-            Rigidbody rb = go.GetComponent<Rigidbody>();
-            //if (rb != null) rb.isKinematic = true;
-
-            Collider col = go.GetComponent<Collider>();
-            //if (col != null) col.isTrigger = true;
-
-            // ScriptableObject 배열에서 랜덤 아이템 선택
-            ItemData baseItem = possibleDrops[Random.Range(0, possibleDrops.Length)];
-
-            // 값 복사 및 드랍용 새 인스턴스 생성
-            float randomValue = Random.Range(1f, 100f);
-            ItemData dropItem = ScriptableObject.CreateInstance<ItemData>();
-            dropItem.id = baseItem.id;
-            dropItem.itemName = baseItem.itemName;
-            dropItem.icon = baseItem.icon;
-            dropItem.type = baseItem.type;
-            dropItem.value = randomValue;
-            dropItem.UpdateRarityByValue();
-
-            // ItemDrop 초기화 호출 (스프라이트, 빛 색상 반영)
-            ItemDrop drop = go.GetComponent<ItemDrop>();
-            if (drop != null)
-                drop.Initialize(dropItem);
-
-            // ItemPickup에도 데이터 전달
-            ItemPickup pickup = go.GetComponent<ItemPickup>();
-            if (pickup != null)
-            {
-                pickup.item = dropItem;
-                pickup.inventory = playerInventory;
-            }
-
-            Debug.Log($"[드랍] {dropItem.itemName} 생성됨 (Value={dropItem.value:F1}, Rarity={dropItem.rarity}) | 최종확률 {finalDropChance * 100f:F1}% (기본 {dropChance}%, 보정 +{playerDropBonus:F1}%)");
-        }
     }
 
     private void StartAttack()
