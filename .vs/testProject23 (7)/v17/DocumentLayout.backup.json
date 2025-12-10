@@ -7,12 +7,8 @@
       "RelativeMoniker": "D:0:0:{1BD44F18-BFA6-88B3-44A4-8118B9186668}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uiscripts\\monsterdamagetext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1BD44F18-BFA6-88B3-44A4-8118B9186668}|Assembly-CSharp.csproj|c:\\users\\2191\\desktop\\\uC7A5\uAD70\\\uC720\uB2C8\uD2F0 \uD30C\uC77C\\testproject23 (7)\\assets\\scripts\\monsterscripts\\monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1BD44F18-BFA6-88B3-44A4-8118B9186668}|Assembly-CSharp.csproj|C:\\Users\\2191\\Desktop\\\uC7A5\uAD70\\\uC720\uB2C8\uD2F0 \uD30C\uC77C\\testProject23 (7)\\assets\\scripts\\monsterscripts\\monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1BD44F18-BFA6-88B3-44A4-8118B9186668}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\monsterscripts\\monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1BD44F18-BFA6-88B3-44A4-8118B9186668}|Assembly-CSharp.csproj|c:\\users\\2191\\desktop\\\uC7A5\uAD70\\\uC720\uB2C8\uD2F0 \uD30C\uC77C\\testproject23 (7)\\assets\\damagetextpool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BD44F18-BFA6-88B3-44A4-8118B9186668}|Assembly-CSharp.csproj|solutionrelative:assets\\damagetextpool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1BD44F18-BFA6-88B3-44A4-8118B9186668}|Assembly-CSharp.csproj|C:\\Users\\2191\\Desktop\\\uC7A5\uAD70\\\uC720\uB2C8\uD2F0 \uD30C\uC77C\\testProject23 (7)\\assets\\scripts\\uiscripts\\levelupui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -133,6 +129,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2191\\Desktop\\\uC7A5\uAD70\\\uC720\uB2C8\uD2F0 \uD30C\uC77C\\testProject23 (7)\\Assets\\Editor\\InspectorLabelFix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Editor\\InspectorLabelFix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\2191\\desktop\\\uC7A5\uAD70\\\uC720\uB2C8\uD2F0 \uD30C\uC77C\\testproject23 (7)\\assets\\damagetextpool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\damagetextpool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -152,14 +152,14 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\UiScripts\\MonsterDamageText.cs",
               "ToolTip": "C:\\Users\\2191\\Desktop\\\uC7A5\uAD70\\\uC720\uB2C8\uD2F0 \uD30C\uC77C\\testProject23 (7)\\Assets\\Scripts\\UiScripts\\MonsterDamageText.cs",
               "RelativeToolTip": "Assets\\Scripts\\UiScripts\\MonsterDamageText.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB8AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwB8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-09T07:59:18.747Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 32,
               "Title": "DamageTextPool.cs",
               "DocumentMoniker": "C:\\Users\\2191\\Desktop\\\uC7A5\uAD70\\\uC720\uB2C8\uD2F0 \uD30C\uC77C\\testProject23 (7)\\Assets\\DamageTextPool.cs",
               "RelativeDocumentMoniker": "Assets\\DamageTextPool.cs",
@@ -167,8 +167,7 @@
               "RelativeToolTip": "Assets\\DamageTextPool.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAADwvxgAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T07:48:55.276Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-09T07:48:55.276Z"
             },
             {
               "$type": "Document",
@@ -180,12 +179,11 @@
               "RelativeToolTip": "Assets\\Scripts\\MonsterScripts\\Monster.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAcwBwAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T08:21:55.061Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-28T08:21:55.061Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "LevelUpUI.cs",
               "DocumentMoniker": "C:\\Users\\2191\\Desktop\\\uC7A5\uAD70\\\uC720\uB2C8\uD2F0 \uD30C\uC77C\\testProject23 (7)\\Assets\\Scripts\\UiScripts\\LevelUpUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UiScripts\\LevelUpUI.cs",
@@ -197,7 +195,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "HPBillboard.cs",
               "DocumentMoniker": "C:\\Users\\2191\\Desktop\\\uC7A5\uAD70\\\uC720\uB2C8\uD2F0 \uD30C\uC77C\\testProject23 (7)\\Assets\\Scripts\\UiScripts\\HPBillboard.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UiScripts\\HPBillboard.cs",
@@ -209,7 +207,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "GoldUI.cs",
               "DocumentMoniker": "C:\\Users\\2191\\Desktop\\\uC7A5\uAD70\\\uC720\uB2C8\uD2F0 \uD30C\uC77C\\testProject23 (7)\\Assets\\Scripts\\UiScripts\\GoldUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UiScripts\\GoldUI.cs",
@@ -221,7 +219,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "GameTimer.cs",
               "DocumentMoniker": "C:\\Users\\2191\\Desktop\\\uC7A5\uAD70\\\uC720\uB2C8\uD2F0 \uD30C\uC77C\\testProject23 (7)\\Assets\\Scripts\\UiScripts\\GameTimer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UiScripts\\GameTimer.cs",
@@ -233,7 +231,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "C:\\Users\\2191\\Desktop\\\uC7A5\uAD70\\\uC720\uB2C8\uD2F0 \uD30C\uC77C\\testProject23 (7)\\Assets\\Scripts\\PlayerScripts\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerScripts\\PlayerMovement.cs",
@@ -245,7 +243,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 14,
               "Title": "PlayerInteract.cs",
               "DocumentMoniker": "C:\\Users\\2191\\Desktop\\\uC7A5\uAD70\\\uC720\uB2C8\uD2F0 \uD30C\uC77C\\testProject23 (7)\\Assets\\Scripts\\PlayerScripts\\PlayerInteract.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerScripts\\PlayerInteract.cs",
@@ -257,7 +255,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 15,
               "Title": "PlayerHpBar.cs",
               "DocumentMoniker": "C:\\Users\\2191\\Desktop\\\uC7A5\uAD70\\\uC720\uB2C8\uD2F0 \uD30C\uC77C\\testProject23 (7)\\Assets\\Scripts\\PlayerScripts\\PlayerHpBar.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerScripts\\PlayerHpBar.cs",
@@ -269,7 +267,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 17,
               "Title": "PlayerExperience.cs",
               "DocumentMoniker": "C:\\Users\\2191\\Desktop\\\uC7A5\uAD70\\\uC720\uB2C8\uD2F0 \uD30C\uC77C\\testProject23 (7)\\Assets\\Scripts\\PlayerScripts\\PlayerExperience.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerScripts\\PlayerExperience.cs",
@@ -281,7 +279,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 18,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\Users\\2191\\Desktop\\\uC7A5\uAD70\\\uC720\uB2C8\uD2F0 \uD30C\uC77C\\testProject23 (7)\\Assets\\Scripts\\PlayerScripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerScripts\\PlayerController.cs",
@@ -293,7 +291,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 19,
               "Title": "PlayerCombat.cs",
               "DocumentMoniker": "C:\\Users\\2191\\Desktop\\\uC7A5\uAD70\\\uC720\uB2C8\uD2F0 \uD30C\uC77C\\testProject23 (7)\\Assets\\Scripts\\PlayerScripts\\PlayerCombat.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerScripts\\PlayerCombat.cs",
@@ -305,7 +303,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 20,
               "Title": "ShopNpc.cs",
               "DocumentMoniker": "C:\\Users\\2191\\Desktop\\\uC7A5\uAD70\\\uC720\uB2C8\uD2F0 \uD30C\uC77C\\testProject23 (7)\\Assets\\Scripts\\NpcScripts\\ShopNpc.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\NpcScripts\\ShopNpc.cs",
@@ -317,7 +315,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 21,
               "Title": "OrcHpBar.cs",
               "DocumentMoniker": "C:\\Users\\2191\\Desktop\\\uC7A5\uAD70\\\uC720\uB2C8\uD2F0 \uD30C\uC77C\\testProject23 (7)\\Assets\\Scripts\\MonsterScripts\\OrcHpBar.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MonsterScripts\\OrcHpBar.cs",
@@ -329,7 +327,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 25,
               "Title": "FloatingItem.cs",
               "DocumentMoniker": "C:\\Users\\2191\\Desktop\\\uC7A5\uAD70\\\uC720\uB2C8\uD2F0 \uD30C\uC77C\\testProject23 (7)\\Assets\\Scripts\\ItemScripts\\FloatingItem.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ItemScripts\\FloatingItem.cs",
@@ -341,7 +339,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 27,
               "Title": "ItemRarity.cs",
               "DocumentMoniker": "C:\\Users\\2191\\Desktop\\\uC7A5\uAD70\\\uC720\uB2C8\uD2F0 \uD30C\uC77C\\testProject23 (7)\\Assets\\Scripts\\Data\\ItemRarity.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Data\\ItemRarity.cs",
@@ -353,7 +351,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 29,
               "Title": "CameraController.cs",
               "DocumentMoniker": "C:\\Users\\2191\\Desktop\\\uC7A5\uAD70\\\uC720\uB2C8\uD2F0 \uD30C\uC77C\\testProject23 (7)\\Assets\\Scripts\\CameraScripts\\CameraController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CameraScripts\\CameraController.cs",
@@ -365,7 +363,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 30,
               "Title": "Billboard.cs",
               "DocumentMoniker": "C:\\Users\\2191\\Desktop\\\uC7A5\uAD70\\\uC720\uB2C8\uD2F0 \uD30C\uC77C\\testProject23 (7)\\Assets\\Scripts\\CameraScripts\\Billboard.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CameraScripts\\Billboard.cs",
@@ -377,7 +375,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "ItemPickup.cs",
               "DocumentMoniker": "C:\\Users\\2191\\Desktop\\\uC7A5\uAD70\\\uC720\uB2C8\uD2F0 \uD30C\uC77C\\testProject23 (7)\\Assets\\Scripts\\UiScripts\\ItemPickup.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UiScripts\\ItemPickup.cs",
@@ -389,7 +387,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 16,
               "Title": "PlayerHealth.cs",
               "DocumentMoniker": "C:\\Users\\2191\\Desktop\\\uC7A5\uAD70\\\uC720\uB2C8\uD2F0 \uD30C\uC77C\\testProject23 (7)\\Assets\\Scripts\\PlayerScripts\\PlayerHealth.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerScripts\\PlayerHealth.cs",
@@ -401,7 +399,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 23,
               "Title": "DropManager.cs",
               "DocumentMoniker": "C:\\Users\\2191\\Desktop\\\uC7A5\uAD70\\\uC720\uB2C8\uD2F0 \uD30C\uC77C\\testProject23 (7)\\Assets\\Scripts\\Manager\\DropManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Manager\\DropManager.cs",
@@ -413,7 +411,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 31,
               "Title": "InspectorLabelFix.cs",
               "DocumentMoniker": "C:\\Users\\2191\\Desktop\\\uC7A5\uAD70\\\uC720\uB2C8\uD2F0 \uD30C\uC77C\\testProject23 (7)\\Assets\\Editor\\InspectorLabelFix.cs",
               "RelativeDocumentMoniker": "Assets\\Editor\\InspectorLabelFix.cs",
@@ -424,7 +422,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 26,
               "Title": "ItemType.cs",
               "DocumentMoniker": "C:\\Users\\2191\\Desktop\\\uC7A5\uAD70\\\uC720\uB2C8\uD2F0 \uD30C\uC77C\\testProject23 (7)\\Assets\\Scripts\\Data\\ItemType.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Data\\ItemType.cs",
@@ -436,7 +434,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 22,
               "Title": "ShopManager.cs",
               "DocumentMoniker": "C:\\Users\\2191\\Desktop\\\uC7A5\uAD70\\\uC720\uB2C8\uD2F0 \uD30C\uC77C\\testProject23 (7)\\Assets\\Scripts\\Manager\\ShopManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Manager\\ShopManager.cs",
@@ -448,7 +446,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "ShopSlot.cs",
               "DocumentMoniker": "C:\\Users\\2191\\Desktop\\\uC7A5\uAD70\\\uC720\uB2C8\uD2F0 \uD30C\uC77C\\testProject23 (7)\\Assets\\Scripts\\UiScripts\\ShopSlot.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UiScripts\\ShopSlot.cs",
@@ -460,7 +458,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "PurchaseUI.cs",
               "DocumentMoniker": "C:\\Users\\2191\\Desktop\\\uC7A5\uAD70\\\uC720\uB2C8\uD2F0 \uD30C\uC77C\\testProject23 (7)\\Assets\\Scripts\\UiScripts\\PurchaseUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UiScripts\\PurchaseUI.cs",
@@ -472,7 +470,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 13,
               "Title": "PlayerInventory.cs",
               "DocumentMoniker": "C:\\Users\\2191\\Desktop\\\uC7A5\uAD70\\\uC720\uB2C8\uD2F0 \uD30C\uC77C\\testProject23 (7)\\Assets\\Scripts\\PlayerScripts\\PlayerInventory.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerScripts\\PlayerInventory.cs",
@@ -484,7 +482,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 24,
               "Title": "ItemDrop.cs",
               "DocumentMoniker": "C:\\Users\\2191\\Desktop\\\uC7A5\uAD70\\\uC720\uB2C8\uD2F0 \uD30C\uC77C\\testProject23 (7)\\Assets\\Scripts\\ItemScripts\\ItemDrop.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ItemScripts\\ItemDrop.cs",
@@ -496,7 +494,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "PlayerStats.cs",
               "DocumentMoniker": "C:\\Users\\2191\\Desktop\\\uC7A5\uAD70\\\uC720\uB2C8\uD2F0 \uD30C\uC77C\\testProject23 (7)\\Assets\\Scripts\\PlayerScripts\\PlayerStats.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerScripts\\PlayerStats.cs",
@@ -508,7 +506,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 28,
               "Title": "ItemData.cs",
               "DocumentMoniker": "C:\\Users\\2191\\Desktop\\\uC7A5\uAD70\\\uC720\uB2C8\uD2F0 \uD30C\uC77C\\testProject23 (7)\\Assets\\Scripts\\Data\\ItemData.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Data\\ItemData.cs",
@@ -520,7 +518,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "SlotUI.cs",
               "DocumentMoniker": "C:\\Users\\2191\\Desktop\\\uC7A5\uAD70\\\uC720\uB2C8\uD2F0 \uD30C\uC77C\\testProject23 (7)\\Assets\\Scripts\\UiScripts\\SlotUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UiScripts\\SlotUI.cs",
@@ -532,7 +530,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "TooltipManager.cs",
               "DocumentMoniker": "C:\\Users\\2191\\Desktop\\\uC7A5\uAD70\\\uC720\uB2C8\uD2F0 \uD30C\uC77C\\testProject23 (7)\\Assets\\Scripts\\UiScripts\\TooltipManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UiScripts\\TooltipManager.cs",
