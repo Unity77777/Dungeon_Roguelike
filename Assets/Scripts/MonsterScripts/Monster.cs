@@ -1,14 +1,9 @@
 ﻿using UnityEngine;
 
 // ================= 몬스터 스크립트 =================
-[RequireComponent(typeof(CharacterController))]
 public class Monster : MonoBehaviour
 {
-    [Header("Player Tracking")]
     public Transform player;
-    public float moveSpeed = 3f;
-    public float detectionRange = 10f;
-    public float stopDistance = 1.5f;
     public float attackDistance = 2.0f;
 
     [Header("Attack")]
@@ -38,13 +33,7 @@ public class Monster : MonoBehaviour
     [Header("Drop Item inventory")]
     public ItemData[] possibleDrops;
 
-    [Header("Separation Setting")]
-    public float separationRadius = 1f;
-    public LayerMask monsterLayer;
-
-    private CharacterController controller;
     private Animator animator;
-    private float verticalVelocity = 0f;
     private bool isDead = false;
     private bool isAttacking = false;
 
@@ -55,7 +44,6 @@ public class Monster : MonoBehaviour
 
     void Start()
     {
-        controller = GetComponent<CharacterController>();
         animator = GetComponent<Animator>();
         currentHP = maxHP;
 
@@ -74,76 +62,24 @@ public class Monster : MonoBehaviour
 
     void Update()
     {
-        if (player == null || isDead) return;
+        if (player == null || isDead)
+            return;
 
-        HandleMovementAndAttack();
-        ApplyGravity();
+        HandleAttack();
         UpdateAttackGaugeUI();
     }
 
-    private void HandleMovementAndAttack()
+    private void HandleAttack()
     {
         Vector3 toPlayer = player.position - transform.position;
         float distance = toPlayer.magnitude;
-        Vector3 move = Vector3.zero;
 
-        if (distance <= detectionRange)
+        if (distance <= attackDistance &&Time.time - lastAttackTime >= attackCooldown && !isAttacking)
         {
-            bool shouldWalk = distance > stopDistance;
-            animator.SetBool("isWalking", shouldWalk);
-
-            if (shouldWalk)
-            {
-                Vector3 moveDir = toPlayer;
-                moveDir.y = 0f;
-                moveDir.Normalize();
-                move += moveDir * moveSpeed;
-            }
-
-            if (distance <= attackDistance && Time.time - lastAttackTime >= attackCooldown && !isAttacking)
-            {
-                animator.SetTrigger("attackTrigger");
-                lastAttackTime = Time.time;
-                StartAttack();
-            }
+            animator.SetTrigger("attackTrigger");
+            lastAttackTime = Time.time;
+            StartAttack();
         }
-        else
-        {
-            animator.SetBool("isWalking", false);
-        }
-
-        ApplySeparation(ref move);
-
-        move.y = verticalVelocity;
-        controller.Move(move * Time.deltaTime);
-    }
-
-    private void ApplySeparation(ref Vector3 move)
-    {
-        Collider[] hits = Physics.OverlapSphere(transform.position, separationRadius, monsterLayer);
-        Vector3 separationOffset = Vector3.zero;
-
-        foreach (var hit in hits)
-        {
-            if (hit.gameObject == gameObject) continue;
-
-            Vector3 diff = transform.position - hit.transform.position;
-            diff.y = 0f;
-            float dist = diff.magnitude;
-
-            if (dist < separationRadius && dist > 0f)
-                separationOffset += diff.normalized * (separationRadius - dist);
-        }
-
-        move += separationOffset;
-    }
-
-    private void ApplyGravity()
-    {
-        if (controller.isGrounded)
-            verticalVelocity = 0f;
-        else
-            verticalVelocity -= 9.81f * Time.deltaTime;
     }
 
     public void TakeDamage(int damage, bool isCritical = false)
@@ -168,7 +104,6 @@ public class Monster : MonoBehaviour
         isDead = true;
 
         animator.SetTrigger("dieTrigger");
-        controller.enabled = false;
 
         if (attackGaugeUI != null)
             attackGaugeUI.gameObject.SetActive(false);
