@@ -13,26 +13,20 @@ public class Monster : MonoBehaviour
     public PlayerInventory playerInventory;
     public PlayerHealth playerHealth;
 
-    [Header("Item Drop")]
-    public GameObject itemPrefab;
-    public float dropChance = 0.5f;
-    public Sprite dropIcon;
-
-    [Header("Drop Item inventory")]
-    public ItemData[] possibleDrops;
-
     private Animator animator;
     private bool isDead = false;
 
     public GameObject damageTextPrefab;
     private Transform worldCanvas;
     private MonsterAttack attackModule;
+    private MonsterDropper dropper;
     void Start()
     {
         animator = GetComponent<Animator>();
         currentHP = maxHP;
 
         attackModule = GetComponent<MonsterAttack>();
+        dropper = GetComponent<MonsterDropper>();
         attackModule.Initialize(player);
         GameObject obj = GameObject.Find("WorldCanvas");
         if (obj != null)
@@ -80,7 +74,7 @@ public class Monster : MonoBehaviour
         GiveGoldReward();
 
         // 아이템 드랍 시도
-        DropSystem.TryDrop(possibleDrops, dropChance, transform.position, playerInventory, itemPrefab);
+        dropper?.Drop(playerInventory, transform.position);
 
         Destroy(gameObject, 3f);
     }
