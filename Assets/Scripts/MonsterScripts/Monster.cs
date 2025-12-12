@@ -67,37 +67,12 @@ public class Monster : MonoBehaviour
 
         animator.SetTrigger("dieTrigger");
 
-        // 경험치 지급
-        playerInventory?.GetComponent<PlayerExperience>()?.GainExp(150);
+        MonsterReward reward = GetComponent<MonsterReward>();
+        reward?.GiveReward(playerInventory);
 
-        // 골드 지급 로직 추가
-        GiveGoldReward();
-
-        // 아이템 드랍 시도
         dropper?.Drop(playerInventory, transform.position);
 
         Destroy(gameObject, 3f);
-    }
-    private void GiveGoldReward()
-    {
-        if (playerInventory == null)
-            return;
-
-        PlayerStats stats = playerInventory.GetComponent<PlayerStats>();
-        if (stats == null)
-            return;
-
-        // 기본 골드 1~100 랜덤
-        int baseGold = Random.Range(1, 101);
-
-        // 골드 증가율(goldGain%) 적용
-        float finalGold = baseGold * (1f + stats.goldGain / 100f);
-
-        // 정수화 및 누적
-        int gainedGold = Mathf.RoundToInt(finalGold);
-        stats.gold += gainedGold;
-
-        Debug.Log($"[골드 획득] {baseGold} → 최종 {gainedGold} (보너스 {stats.goldGain:F1}%) / 총 보유: {stats.gold}");
     }
 
     private void ShowDamageText(int damage, bool isCritical)

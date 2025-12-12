@@ -178,4 +178,9 @@ public class PlayerStats : MonoBehaviour
             }
         }
     }
+    public void AddGold(int baseGold)
+    {
+        float finalGold = baseGold * (1f + goldGain / 100f);
+        gold += Mathf.FloorToInt(finalGold);
+    }
 }

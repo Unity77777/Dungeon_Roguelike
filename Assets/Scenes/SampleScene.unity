@@ -186,6 +186,21 @@ MonoBehaviour:
   monsterLayer:
     serializedVersion: 2
     m_Bits: 0
+--- !u!114 &52537671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 52537659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 527b55ec49ea1db4f9e6b71f4344e640, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  baseExp: 150
+  minGold: 1
+  maxGold: 100
 --- !u!1 &53237219
 GameObject:
   m_ObjectHideFlags: 0
@@ -642,6 +657,21 @@ MonoBehaviour:
   monsterLayer:
     serializedVersion: 2
     m_Bits: 0
+--- !u!114 &146359042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 146359030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 527b55ec49ea1db4f9e6b71f4344e640, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  baseExp: 150
+  minGold: 1
+  maxGold: 100
 --- !u!1 &166683889
 GameObject:
   m_ObjectHideFlags: 0
@@ -1431,6 +1461,21 @@ MonoBehaviour:
   dropChance: 50
   itemPrefab: {fileID: 5253608150070142448, guid: 1c28871199ddc784ca1c8a02d856f284, type: 3}
   dropIcon: {fileID: -721191147, guid: b380a97ac54297245808e26c2f5f23ef, type: 3}
+--- !u!114 &337285582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 337285562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 527b55ec49ea1db4f9e6b71f4344e640, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  baseExp: 150
+  minGold: 1
+  maxGold: 100
 --- !u!1 &386537451
 GameObject:
   m_ObjectHideFlags: 0
@@ -1595,6 +1640,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4359916383744605830, guid: 5ac3d7d9cff7bf147af473556bad0624, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1701754648}
+    - targetCorrespondingSourceObject: {fileID: 4359916383744605830, guid: 5ac3d7d9cff7bf147af473556bad0624, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1701754659}
   m_SourcePrefab: {fileID: 100100000, guid: 5ac3d7d9cff7bf147af473556bad0624, type: 3}
 --- !u!1 &410087039
 GameObject:
@@ -1784,6 +1832,21 @@ MonoBehaviour:
   monsterLayer:
     serializedVersion: 2
     m_Bits: 0
+--- !u!114 &450888611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 450888599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 527b55ec49ea1db4f9e6b71f4344e640, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  baseExp: 150
+  minGold: 1
+  maxGold: 100
 --- !u!1001 &478036551
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1873,6 +1936,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4359916383744605830, guid: 5ac3d7d9cff7bf147af473556bad0624, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2023796271}
+    - targetCorrespondingSourceObject: {fileID: 4359916383744605830, guid: 5ac3d7d9cff7bf147af473556bad0624, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2023796282}
   m_SourcePrefab: {fileID: 100100000, guid: 5ac3d7d9cff7bf147af473556bad0624, type: 3}
 --- !u!1 &491365426
 GameObject:
@@ -2473,6 +2539,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4359916383744605830, guid: 5ac3d7d9cff7bf147af473556bad0624, type: 3}
       insertIndex: -1
       addedObject: {fileID: 702605208}
+    - targetCorrespondingSourceObject: {fileID: 4359916383744605830, guid: 5ac3d7d9cff7bf147af473556bad0624, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 702605219}
   m_SourcePrefab: {fileID: 100100000, guid: 5ac3d7d9cff7bf147af473556bad0624, type: 3}
 --- !u!1 &590172202
 GameObject:
@@ -3374,6 +3443,21 @@ MonoBehaviour:
   monsterLayer:
     serializedVersion: 2
     m_Bits: 0
+--- !u!114 &702605219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 702605207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 527b55ec49ea1db4f9e6b71f4344e640, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  baseExp: 150
+  minGold: 1
+  maxGold: 100
 --- !u!1 &707903116
 GameObject:
   m_ObjectHideFlags: 0
@@ -3538,6 +3622,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4359916383744605830, guid: 5ac3d7d9cff7bf147af473556bad0624, type: 3}
       insertIndex: -1
       addedObject: {fileID: 146359031}
+    - targetCorrespondingSourceObject: {fileID: 4359916383744605830, guid: 5ac3d7d9cff7bf147af473556bad0624, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 146359042}
   m_SourcePrefab: {fileID: 100100000, guid: 5ac3d7d9cff7bf147af473556bad0624, type: 3}
 --- !u!1 &755593423
 GameObject:
@@ -5592,6 +5679,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4359916383744605830, guid: 5ac3d7d9cff7bf147af473556bad0624, type: 3}
       insertIndex: -1
       addedObject: {fileID: 52537660}
+    - targetCorrespondingSourceObject: {fileID: 4359916383744605830, guid: 5ac3d7d9cff7bf147af473556bad0624, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 52537671}
   m_SourcePrefab: {fileID: 100100000, guid: 5ac3d7d9cff7bf147af473556bad0624, type: 3}
 --- !u!1 &1204188185
 GameObject:
@@ -7816,6 +7906,21 @@ MonoBehaviour:
   monsterLayer:
     serializedVersion: 2
     m_Bits: 0
+--- !u!114 &1701754659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1701754647}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 527b55ec49ea1db4f9e6b71f4344e640, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  baseExp: 150
+  minGold: 1
+  maxGold: 100
 --- !u!1 &1713915589
 GameObject:
   m_ObjectHideFlags: 0
@@ -8639,6 +8744,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4359916383744605830, guid: 5ac3d7d9cff7bf147af473556bad0624, type: 3}
       insertIndex: -1
       addedObject: {fileID: 450888600}
+    - targetCorrespondingSourceObject: {fileID: 4359916383744605830, guid: 5ac3d7d9cff7bf147af473556bad0624, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 450888611}
   m_SourcePrefab: {fileID: 100100000, guid: 5ac3d7d9cff7bf147af473556bad0624, type: 3}
 --- !u!1 &2023796270 stripped
 GameObject:
@@ -8707,6 +8815,21 @@ MonoBehaviour:
   monsterLayer:
     serializedVersion: 2
     m_Bits: 0
+--- !u!114 &2023796282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2023796270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 527b55ec49ea1db4f9e6b71f4344e640, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  baseExp: 150
+  minGold: 1
+  maxGold: 100
 --- !u!1 &2027734461
 GameObject:
   m_ObjectHideFlags: 0
@@ -9125,6 +9248,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4359916383744605830, guid: 5ac3d7d9cff7bf147af473556bad0624, type: 3}
       insertIndex: -1
       addedObject: {fileID: 337285573}
+    - targetCorrespondingSourceObject: {fileID: 4359916383744605830, guid: 5ac3d7d9cff7bf147af473556bad0624, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 337285582}
   m_SourcePrefab: {fileID: 100100000, guid: 5ac3d7d9cff7bf147af473556bad0624, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
