@@ -1,5 +1,4 @@
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlayerStats : MonoBehaviour
@@ -15,7 +14,7 @@ public class PlayerStats : MonoBehaviour
     // 새로 추가할 아이템 기반 스탯
     public float goldGain = 0f;         // 골드 획득량 증가 (%)
     public float criticalChance = 0f;   // 크리티컬 확률 (%)
-    public float criticalDamage = 0f;   // 크리티컬 데미지 배율 (%)
+    public float criticalDamage = 1.5f;   // 크리티컬 데미지 배율 (%)
     public float healthRegen = 0f;      // 초당 체력 회복량
     public float defense = 0f;          // 방어력 (% or 절대값)
     public float dropRate = 0f;         // 드랍률 증가 (%)
@@ -65,7 +64,7 @@ public class PlayerStats : MonoBehaviour
                 break;
 
             case "Exp":
-                expGain *= (1 + percent / 100f);
+                expGain *= (1f + percent / 100f);
                 break;
 
             case "AllStat":
@@ -74,7 +73,7 @@ public class PlayerStats : MonoBehaviour
                 attackSpeed *= (1 + percent / 100f);
                 hp *= (1 + percent / 100f);
                 moveSpeed *= (1 + percent / 100f);
-                expGain *= (1 + percent / 100f);
+                expGain *= (1f + percent / 100f);
 
                 // HP가 변했으므로 PlayerHealth에 반영
                 if (playerHealth != null)
@@ -92,13 +91,14 @@ public class PlayerStats : MonoBehaviour
     {
         // 아이템 효과는 덮어씌워지는 구조이므로 초기화 필요
         criticalChance = 0f;
-        criticalDamage = 0f;
+        criticalDamage = 1.5f;
         goldGain = 0f;
         healthRegen = 0f;
         defense = 0f;
         dropRate = 0f;
         lifeSteal = 0f;
-        expGain = 0f;
+        expGain = 1f;
+        attack = 10f;
     }
 
     public void RecalculateStats(List<ItemData> inventory)
@@ -128,7 +128,7 @@ public class PlayerStats : MonoBehaviour
                     break;
 
                 case ItemType.CriticalDamage:
-                    criticalDamage = v;
+                    criticalDamage *= (1f + v / 100f);
                     break;
 
                 case ItemType.Defense:
@@ -152,28 +152,22 @@ public class PlayerStats : MonoBehaviour
                     break;
 
                 case ItemType.ExpGain:
-                    expGain = (1 + v / 100);
+                    expGain *= (1f + v / 100f);
                     break;
 
-                case ItemType.AllStatBoost:
-                    criticalChance += v;
-                    criticalDamage += v;
-                    defense += v;
+                case ItemType.HealthRegen_LifeSteal:
                     healthRegen += v / 10f;
                     lifeSteal += v / 10f;
-                    goldGain += v;
-                    dropRate += v;
-                    expGain += (1 + v / 100f);
                     break;
 
                 case ItemType.CriticalDamage_Attack:
-                    criticalDamage += v;
-                    attack += v;
+                    criticalDamage *= (1f + v / 100f);
+                    attack *= (1f + v / 100f);
                     break;
 
                 case ItemType.DropRate_ExpGain:
                     dropRate += v;
-                    expGain += (1 + v / 100f);
+                    expGain *= (1f + v / 100f);
                     break;
             }
         }

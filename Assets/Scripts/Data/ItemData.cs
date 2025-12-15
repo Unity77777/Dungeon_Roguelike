@@ -64,8 +64,9 @@ public class ItemData : ScriptableObject
                 effect = "크리티컬 데미지 +" + v + "%";
                 break;
 
-            case ItemType.AllStatBoost:
-                effect = "모든 능력치 +" + v + "%";
+            case ItemType.HealthRegen_LifeSteal:
+                effect = "체력회복 +" + v / 10 + "\n" +
+                         "피흡 +" + v / 10 + "%";
                 break;
 
             case ItemType.CriticalDamage_Attack:
