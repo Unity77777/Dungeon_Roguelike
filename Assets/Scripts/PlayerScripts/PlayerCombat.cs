@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using UnityEngine;
 
 [RequireComponent(typeof(Animator), typeof(PlayerMovement))]
 public class PlayerCombat : MonoBehaviour
@@ -11,6 +12,8 @@ public class PlayerCombat : MonoBehaviour
 
     private bool isAttacking = false;
     private bool attackQueued = false;
+    private bool inputLocked = false;
+    private bool damageAppliedThisAttack = false;
 
     private void Awake()
     {
@@ -22,9 +25,14 @@ public class PlayerCombat : MonoBehaviour
             attackCollider.enabled = false;
     }
 
-    // 공격 시도 (PlayerController에서 호출)
+    // 외부 입력에서 호출
     public void TryAttack()
     {
+        if (inputLocked)
+            return;
+
+        inputLocked = true;
+
         if (!isAttacking)
             StartAttack();
         else
@@ -34,26 +42,33 @@ public class PlayerCombat : MonoBehaviour
     private void StartAttack()
     {
         isAttacking = true;
+        damageAppliedThisAttack = false;
+
         movement.CanMove = false;
 
-        // 공격속도에 따라 애니메이션 재생속도 조절
         float animSpeed = playerStats != null ? playerStats.attackSpeed : 1f;
         animator.speed = animSpeed;
 
+        animator.ResetTrigger("attackTrigger");
         animator.SetTrigger("attackTrigger");
-        animator.SetFloat("speed", 0);
+        animator.SetFloat("speed", 0f);
     }
 
-    // 애니메이션 이벤트: 공격 시작 시점
+    // 애니메이션 이벤트
     public void OnAttackStart()
     {
+        if (damageAppliedThisAttack)
+            return;
+
+        damageAppliedThisAttack = true;
+
         if (attackCollider != null)
             attackCollider.enabled = true;
 
         ApplyDamage();
     }
 
-    // 애니메이션 이벤트: 공격 종료 시점
+    // 애니메이션 이벤트
     public void OnAttackEnd()
     {
         if (attackCollider != null)
@@ -61,11 +76,10 @@ public class PlayerCombat : MonoBehaviour
 
         isAttacking = false;
         movement.CanMove = true;
-
-        // 공격 끝나면 애니메이션 속도 복원
         animator.speed = 1f;
 
-        // 큐 대기 중이면 즉시 다음 공격 실행
+        inputLocked = false;
+
         if (attackQueued)
         {
             attackQueued = false;
@@ -73,65 +87,73 @@ public class PlayerCombat : MonoBehaviour
         }
     }
 
-    // 실제 공격 판정 수행
     private void ApplyDamage()
     {
-        if (attackCollider is SphereCollider sphere)
+        if (!(attackCollider is SphereCollider sphere))
+            return;
+
+        Vector3 center = sphere.transform.TransformPoint(sphere.center);
+        float radius = sphere.radius * Mathf.Max(
+            sphere.transform.lossyScale.x,
+            sphere.transform.lossyScale.y,
+            sphere.transform.lossyScale.z
+        );
+
+        Collider[] hits = Physics.OverlapSphere(center, radius);
+
+        HashSet<MonsterHealth> damagedTargets = new HashSet<MonsterHealth>();
+
+        foreach (Collider col in hits)
         {
-            Vector3 center = sphere.transform.TransformPoint(sphere.center);
-            float radius = sphere.radius * Mathf.Max(
-                sphere.transform.lossyScale.x,
-                sphere.transform.lossyScale.y,
-                sphere.transform.lossyScale.z
-            );
+            MonsterHealth health = col.GetComponentInParent<MonsterHealth>();
+            if (health == null || health.IsDead)
+                continue;
 
-            Collider[] hits = Physics.OverlapSphere(center, radius);
-            foreach (var col in hits)
-            {
-                Monster monster = col.GetComponent<Monster>();
-                if (monster != null)
-                {
-                    float baseAttack = playerStats != null ? playerStats.attack : 10f;
+            if (damagedTargets.Contains(health))
+                continue;
 
-                    // 크리티컬 판정
-                    bool isCritical = false;
-                    if (playerStats != null && playerStats.criticalChance > 0f)
-                    {
-                        float rand = Random.value * 100f;
-                        isCritical = rand < playerStats.criticalChance;
-                    }
+            damagedTargets.Add(health);
 
-                    // 크리티컬 배율 적용
-                    float finalDamage = baseAttack;
-                    if (isCritical)
-                    {
-                        float critMultiplier = 1.5f + (playerStats.criticalDamage / 100f);
-                        finalDamage *= critMultiplier;
-                        Debug.Log($"[크리티컬!] {finalDamage:F1} 피해 (배율 {critMultiplier:F2})");
-                    }
-
-                    Debug.Log($"[PlayerCombat] Damage={finalDamage}, Critical={isCritical}");
-
-                    // ★ 크리티컬 여부 전달 (중요)
-                    monster.TakeDamage(Mathf.RoundToInt(finalDamage), isCritical);
-
-                    // 피흡 처리
-                    if (playerStats != null && playerStats.lifeSteal > 0f)
-                    {
-                        PlayerHealth health = GetComponent<PlayerHealth>();
-                        if (health != null)
-                        {
-                            float healAmount = finalDamage * (playerStats.lifeSteal / 100f);
-                            health.Heal(healAmount);
-                            Debug.Log($"[피흡] {healAmount:F1} 회복 (피흡률 {playerStats.lifeSteal:F1}%)");
-                        }
-                    }
-                }
-            }
+            DealDamageTo(health);
         }
     }
 
-    // Scene 뷰에서 공격 범위 표시
+    private void DealDamageTo(MonsterHealth health)
+    {
+        float baseAttack = playerStats != null ? playerStats.attack : 10f;
+
+        bool isCritical = false;
+        if (playerStats != null && playerStats.criticalChance > 0f)
+        {
+            float rand = Random.value * 100f;
+            isCritical = rand < playerStats.criticalChance;
+        }
+
+        float finalDamage = baseAttack;
+
+        if (isCritical)
+        {
+            float critMultiplier = 1.5f + (playerStats.criticalDamage / 100f);
+            finalDamage *= critMultiplier;
+        }
+
+        health.TakeDamage(Mathf.RoundToInt(finalDamage), isCritical);
+        HandleLifeSteal(finalDamage);
+    }
+
+    private void HandleLifeSteal(float damage)
+    {
+        if (playerStats == null || playerStats.lifeSteal <= 0f)
+            return;
+
+        PlayerHealth health = GetComponent<PlayerHealth>();
+        if (health == null)
+            return;
+
+        float healAmount = damage * (playerStats.lifeSteal / 100f);
+        health.Heal(healAmount);
+    }
+
     private void OnDrawGizmosSelected()
     {
         if (attackCollider is SphereCollider sphere)
