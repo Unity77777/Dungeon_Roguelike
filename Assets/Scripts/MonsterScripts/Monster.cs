@@ -25,15 +25,7 @@ public class Monster : MonoBehaviour
 
         attackModule.Initialize(player);
 
-        health.OnDamaged += HandleDamaged;
         health.OnDead += HandleDead;
-
-        GameObject obj = GameObject.Find("WorldCanvas");
-        if (obj != null)
-        {
-            worldCanvas = obj.transform;
-            DamageTextPool.Instance.Initialize(worldCanvas);
-        }
     }
 
     void Update()
@@ -41,11 +33,6 @@ public class Monster : MonoBehaviour
         if (player == null || health.IsDead)
             return;
         attackModule.TryAttack();
-    }
-
-    private void HandleDamaged(int damage, bool isCritical)
-    {
-        ShowDamageText(damage, isCritical);
     }
 
     private void HandleDead()
@@ -58,18 +45,5 @@ public class Monster : MonoBehaviour
         dropper?.Drop(playerInventory, transform.position);
 
         Destroy(gameObject, 3f);
-    }
-
-    private void ShowDamageText(int damage, bool isCritical)
-    {
-        GameObject dmgObj = DamageTextPool.Instance.Get();
-        dmgObj.transform.position = transform.position + Vector3.up * 1.5f;
-
-        var dmgText = dmgObj.GetComponent<MonsterDamageText>();
-        if(dmgText != null)
-        {
-            Color color = isCritical ? Color.red : Color.white;
-            dmgText.Setup(damage.ToString(), color);
-        }
     }
 }

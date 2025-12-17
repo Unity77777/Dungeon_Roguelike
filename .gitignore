@@ -3,10 +3,11 @@
 [Oo]bj/
 [Bb]uild/
 [Bb]uilds/
-UserSettings/
-Logs/
+[Uu]ser[Ss]ettings/
+[Ll]ogs/
 MemoryCaptures/
 Recordings/
+Packages/PackageCache/
 
 *.csproj
 *.sln
@@ -20,3 +21,4 @@ Thumbs.db
 
 .vscode/
 .vs/
+.vsconfig
