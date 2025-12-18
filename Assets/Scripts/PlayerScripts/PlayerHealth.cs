@@ -23,7 +23,7 @@ public class PlayerHealth : MonoBehaviour
     public float regenDelayAfterHit = 5f; // 피격 후 회복 재개 대기 시간
 
     public float CurrentHP => currentHP;
-    public float MaxHP => playerStats != null ? playerStats.hp : 0f;
+    public float MaxHP => playerStats != null ? playerStats.maxHp.Value : 0f;
 
     void Start()
     {
@@ -36,7 +36,7 @@ public class PlayerHealth : MonoBehaviour
             return;
         }
 
-        currentHP = playerStats.hp;
+        currentHP = playerStats.maxHp.Value;
         UpdateUI();
 
         // 체력 재생 루프 시작
@@ -48,9 +48,9 @@ public class PlayerHealth : MonoBehaviour
         if (IsDead) return;
 
         // 방어력 적용 (최대 80% 감소)
-        if (playerStats != null && playerStats.defense > 0f)
+        if (playerStats != null && playerStats.defense.Value> 0f)
         {
-            float reductionRate = Mathf.Clamp(playerStats.defense / 100f, 0f, 0.8f);
+            float reductionRate = Mathf.Clamp(playerStats.defense.Value / 100f, 0f, 0.8f);
             damage *= (1f - reductionRate);
         }
 
@@ -134,14 +134,14 @@ public class PlayerHealth : MonoBehaviour
     {
         if (IsDead) return;
 
-        currentHP = Mathf.Min(currentHP + amount, playerStats.hp);
+        currentHP = Mathf.Min(currentHP + amount, playerStats.maxHp.Value);
         UpdateUI();
     }
 
     public void OnMaxHpIncreased(float oldMaxHp)
     {
         if (playerStats == null) return;
-        float newMaxHp = playerStats.hp;
+        float newMaxHp = playerStats.maxHp.Value;
 
         if (oldMaxHp > 0f)
         {
@@ -160,16 +160,16 @@ public class PlayerHealth : MonoBehaviour
     private void UpdateUI()
     {
         if (hpText != null)
-            hpText.text = $"{Mathf.RoundToInt(currentHP)} / {Mathf.RoundToInt(playerStats.hp)}";
+            hpText.text = $"{Mathf.RoundToInt(currentHP)} / {Mathf.RoundToInt(playerStats.maxHp.Value)}";
 
         if (hpBar != null)
-            hpBar.fillAmount = playerStats.hp > 0 ? currentHP / playerStats.hp : 0f;
+            hpBar.fillAmount = playerStats.maxHp.Value > 0 ? currentHP / playerStats.maxHp.Value : 0f;
     }
 
     public void RefreshMaxHp()
     {
-        if (currentHP > playerStats.hp)
-            currentHP = playerStats.hp;
+        if (currentHP > playerStats.maxHp.Value)
+            currentHP = playerStats.maxHp.Value;
 
         UpdateUI();
     }
@@ -186,7 +186,7 @@ public class PlayerHealth : MonoBehaviour
 
         IsDead = false;
 
-        currentHP = Mathf.Clamp(playerStats != null ? playerStats.hp * reviveHpRatio : 0f, 0f, playerStats != null ? playerStats.hp : 0f);
+        currentHP = Mathf.Clamp(playerStats != null ? playerStats.maxHp.Value * reviveHpRatio : 0f, 0f, playerStats != null ? playerStats.maxHp.Value : 0f);
         UpdateUI();
 
         var movement = GetComponent<PlayerMovement>();
@@ -209,11 +209,11 @@ public class PlayerHealth : MonoBehaviour
             if (!canRegen) continue;
             if (IsDead) break;
             if (playerStats == null) continue;
-            if (playerStats.healthRegen <= 0f) continue;
-            if (currentHP >= playerStats.hp) continue;
+            if (playerStats.healthRegen.Value <= 0f) continue;
+            if (currentHP >= playerStats.maxHp.Value) continue;
 
-            Heal(playerStats.healthRegen);
-            Debug.Log($"[HP 리젠] +{playerStats.healthRegen:F1} 회복 → {currentHP:F1}/{playerStats.hp}");
+            Heal(playerStats.healthRegen.Value);
+            Debug.Log($"[HP 리젠] +{playerStats.healthRegen:F1} 회복 → {currentHP:F1}/{playerStats.maxHp.Value}");
         }
 
         regenCoroutine = null; // 완전히 끝났음을 표시

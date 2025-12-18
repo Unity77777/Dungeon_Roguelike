@@ -11,7 +11,7 @@ public static class DropSystem
         }
 
         PlayerStats stats = playerinventory.GetComponent<PlayerStats>();
-        float playerDropBonus = (stats != null) ? stats.dropRate : 0f;
+        float playerDropBonus = (stats != null) ? stats.dropRate.Value : 0f;
 
         float finalChance = Mathf.Clamp01((baseDropChance + playerDropBonus) / 100f);
 

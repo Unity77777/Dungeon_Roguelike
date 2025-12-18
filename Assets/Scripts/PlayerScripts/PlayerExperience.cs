@@ -34,7 +34,7 @@ public class PlayerExperience : MonoBehaviour
         if (amount <= 0) return;
 
         // expGain ¹Ý¿µ
-        float gainMultiplier = playerStats != null ? playerStats.expGain : 1f;
+        float gainMultiplier = playerStats != null ? playerStats.expGain.Value : 1f;
         int finalExp = Mathf.RoundToInt(amount * gainMultiplier);
 
         queuedExp += finalExp;

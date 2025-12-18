@@ -46,7 +46,7 @@ public class PlayerCombat : MonoBehaviour
 
         movement.CanMove = false;
 
-        float animSpeed = playerStats != null ? playerStats.attackSpeed : 1f;
+        float animSpeed = playerStats != null ? playerStats.attackSpeed.Value : 1f;
         animator.speed = animSpeed;
 
         animator.ResetTrigger("attackTrigger");
@@ -120,20 +120,20 @@ public class PlayerCombat : MonoBehaviour
 
     private void DealDamageTo(MonsterHealth health)
     {
-        float baseAttack = playerStats != null ? playerStats.attack : 10f;
+        float baseAttack = playerStats != null ? playerStats.attack.Value : 10f;
 
         bool isCritical = false;
-        if (playerStats != null && playerStats.criticalChance > 0f)
+        if (playerStats != null && playerStats.criticalChance.Value > 0f)
         {
             float rand = Random.value * 100f;
-            isCritical = rand < playerStats.criticalChance;
+            isCritical = rand < playerStats.criticalChance.Value;
         }
 
         float finalDamage = baseAttack;
 
         if (isCritical)
         {
-            float critMultiplier = 1.5f + (playerStats.criticalDamage / 100f);
+            float critMultiplier = 1.5f + (playerStats.criticalDamage.Value / 100f);
             finalDamage *= critMultiplier;
         }
 
@@ -143,14 +143,14 @@ public class PlayerCombat : MonoBehaviour
 
     private void HandleLifeSteal(float damage)
     {
-        if (playerStats == null || playerStats.lifeSteal <= 0f)
+        if (playerStats == null || playerStats.lifeSteal.Value <= 0f)
             return;
 
         PlayerHealth health = GetComponent<PlayerHealth>();
         if (health == null)
             return;
 
-        float healAmount = damage * (playerStats.lifeSteal / 100f);
+        float healAmount = damage * (playerStats.lifeSteal.Value / 100f);
         health.Heal(healAmount);
     }
 

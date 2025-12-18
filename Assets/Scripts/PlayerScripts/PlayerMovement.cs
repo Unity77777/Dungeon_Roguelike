@@ -57,7 +57,7 @@ public class PlayerMovement : MonoBehaviour
 
         bool grounded = controller.isGrounded;
 
-        float currentSpeed = playerStats != null ? playerStats.moveSpeed : baseSpeed;
+        float currentSpeed = playerStats != null ? playerStats.moveSpeed.Value : baseSpeed;
 
         if (Input.GetKey(KeyCode.LeftShift) && grounded && inputDir.sqrMagnitude > 0.01f)
         {
