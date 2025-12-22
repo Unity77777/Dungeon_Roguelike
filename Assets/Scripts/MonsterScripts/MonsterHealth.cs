@@ -13,11 +13,14 @@ public class MonsterHealth : MonoBehaviour
 
     public event Action<int, bool> OnDamaged;
     public event Action OnDead;
+    private Animator animator;
 
     private void Awake()
     {
         CurrentHP = maxHP;
         IsDead = false;
+
+        animator = GetComponent<Animator>();
     }
 
     public void TakeDamage(int damage, bool isCritical = false)
@@ -27,6 +30,11 @@ public class MonsterHealth : MonoBehaviour
 
         CurrentHP -= damage;
         CurrentHP = Mathf.Max(CurrentHP, 0);
+
+        if(animator != null)
+        {
+            animator.SetTrigger("hitTrigger");
+        }
 
         OnDamaged?.Invoke(damage, isCritical);
 
@@ -41,6 +49,12 @@ public class MonsterHealth : MonoBehaviour
             return;
 
         IsDead = true;
+
+        if(animator != null)
+        {
+            animator.SetTrigger("dieTrigger");
+        }
+
         OnDead?.Invoke();
     }
 }
