@@ -144,6 +144,7 @@ public class ShopManager : MonoBehaviour
     public void CloseShop()
     {
         shopPanel.SetActive(false);
+        TooltipManager.Hide();
         Time.timeScale = 1f;
     }
 

@@ -58,8 +58,14 @@ public class PlayerInventory : MonoBehaviour
         bool isActive = inventoryPanel.activeSelf;
         inventoryPanel.SetActive(!isActive);
 
-        if (!isActive)
+        if(isActive)
+        {
+            TooltipManager.Hide();
+        }
+        else
+        {
             UpdateUI();
+        }
     }
 
     public bool AddItem(ItemData newItem)
