@@ -17,10 +17,11 @@ public class MonsterAttack : MonoBehaviour
     private float currentGauge = 0f;
     private float lastAttackTime = -Mathf.Infinity;
 
+    private MonsterMovement movement;
     void Awake()
     {
         animator = GetComponent<Animator>();
-
+        movement = GetComponent<MonsterMovement>();
         if (attackCollider != null)
             attackCollider.enabled = false;
 
@@ -58,6 +59,8 @@ public class MonsterAttack : MonoBehaviour
 
     private void StartAttack()
     {
+        movement.enabled = false;
+
         if (attackCollider != null)
             attackCollider.enabled = true;
 
@@ -73,6 +76,8 @@ public class MonsterAttack : MonoBehaviour
 
     private void EndAttack()
     {
+        movement.enabled = true;
+
         if (attackCollider != null)
             attackCollider.enabled = false;
 
