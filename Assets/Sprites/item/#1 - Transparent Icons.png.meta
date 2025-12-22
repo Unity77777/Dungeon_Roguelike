@@ -663,12 +663,12 @@ TextureImporter:
       name: '#1 - Transparent Icons_42'
       rect:
         serializedVersion: 2
-        x: 162
+        x: 163
         y: 514
         width: 28
         height: 28
       alignment: 9
-      pivot: {x: -0.39643097, y: 0.48276228}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []

@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class MonsterAttack : MonoBehaviour
@@ -22,6 +23,7 @@ public class MonsterAttack : MonoBehaviour
     {
         animator = GetComponent<Animator>();
         movement = GetComponent<MonsterMovement>();
+
         if (attackCollider != null)
             attackCollider.enabled = false;
 
@@ -59,13 +61,14 @@ public class MonsterAttack : MonoBehaviour
 
     private void StartAttack()
     {
-        movement.enabled = false;
+        isAttacking = true;
+        currentGauge = 0f;
+
+        if(movement != null)
+            movement.enabled = false;
 
         if (attackCollider != null)
             attackCollider.enabled = true;
-
-        isAttacking = true;
-        currentGauge = 0f;
 
         if(gaugeUI != null)
         {
@@ -76,20 +79,27 @@ public class MonsterAttack : MonoBehaviour
 
     private void EndAttack()
     {
-        movement.enabled = true;
+        isAttacking = false;
+        currentGauge = 0f;
 
         if (attackCollider != null)
             attackCollider.enabled = false;
 
         DamagePlayerInRange();
 
-        isAttacking = false;
-        currentGauge = 0f;
-
         if (gaugeUI != null)
             gaugeUI.gameObject.SetActive(false);
+
+        StartCoroutine(MovementDelay(0.25f));
     }
 
+    private IEnumerator MovementDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+
+        if(movement != null)
+            movement.enabled = true;
+    }
     private void DamagePlayerInRange()
     {
         if(attackCollider is SphereCollider sphere)
