@@ -20,8 +20,12 @@ public class MonsterAttack : MonoBehaviour
     void Awake()
     {
         animator = GetComponent<Animator>();
+
         if (attackCollider != null)
             attackCollider.enabled = false;
+
+        if(gaugeUI != null)
+            gaugeUI.gameObject.SetActive(false);
     }
 
     public void Initialize(Transform target)
@@ -62,7 +66,8 @@ public class MonsterAttack : MonoBehaviour
 
         if(gaugeUI != null)
         {
-            gaugeUI.gameObject.SetActive(false);
+            gaugeUI.fillAmount = 0f;
+            gaugeUI.gameObject.SetActive(true);
         }
     }
 
@@ -90,10 +95,10 @@ public class MonsterAttack : MonoBehaviour
             Collider[] hits = Physics.OverlapSphere(center, radius);
             foreach(var col in hits)
             {
-                PlayerHealth pc = col.GetComponent<PlayerHealth>();
-                if(pc != null)
+                PlayerHealth playerHealth = col.GetComponent<PlayerHealth>();
+                if (playerHealth != null)
                 {
-                    pc.TakeDamage(10);
+                    playerHealth.TakeDamage(10);
                     break;
                 }
             }
@@ -115,6 +120,5 @@ public class MonsterAttack : MonoBehaviour
         {
             EndAttack();
         }
-
     }
 }
